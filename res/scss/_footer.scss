@@ -1,0 +1,158 @@
+footer {
+    display: flex;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg,#3f37c9, #4361ee);
+}
+
+.logo-box {
+    width: 150px;
+}
+
+.logo-box .logo {
+    //height: 5vh;
+    margin: 0px;
+    width: 100%;
+}
+
+.nav {
+    margin: 0px 180px 0px 125px;
+}
+
+.nav .links {
+    margin: 20px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav .link {
+    height: auto;
+    position: relative;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0 25px;
+}
+
+/*
+footer .nav-link:hover {
+    color: black;
+}
+*/
+
+.creator-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+}
+
+.social-footer-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.social-nav {
+    margin-top: 8px;
+    padding-left: 6px;
+}
+
+.social-nav-link {
+    display: flex;
+    align-items: center;   
+    margin: 0px 20px 0px 0px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #ffffff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav ul li:hover::after {
+    width: 80%;
+}
+
+
+@media (max-width: 1900px) and (min-width: 1100px) {
+
+    footer {
+        height: 20vh;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    footer {
+        flex-direction: column;
+        //height: 50vh;
+        height: auto;
+    }
+
+    .logo-box {
+        margin-top: 10px;
+    }
+
+    .nav {
+        margin: 0px;
+    }
+
+    .social-nav-links {
+        margin-top: 20px;
+    }
+
+    .social-footer-icons {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .social-nav-links {
+        width: 100px;
+        justify-content: space-around;
+    }
+
+    .social-nav {
+        padding: 0px;
+        margin-left: 6px;
+    }
+
+    .social-nav-link {
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .nav .links {
+        flex-direction: column;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .social-nav-links {
+        margin-top: 10px
+    }
+}

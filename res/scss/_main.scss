@@ -1,0 +1,339 @@
+.container {
+    width: 60%;
+    max-width: 1255px;
+    //height: 50%;
+    //width: 940px;
+    //height: 1100px;
+    height: 100%;
+    margin: 50px 0px 50px 0px;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    position: relative;
+}
+
+.logo-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+    //position: relative;
+}
+
+.logo-link {
+    //background: red;
+    //width: 20%;
+    //height: 100%;
+    text-decoration: none;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 100px 0 0;
+    padding: 20px 0;
+}
+
+.logo {
+    //height: 6vh;
+    width: 80%;
+    //margin: 20px 100px 0px 0px;
+}
+
+.search-bar {
+    border: 2px solid;
+    border-color: #4895ef;
+    display: flex;
+    margin: 20px 0px 0px 0px;
+    border-radius: 50px;
+    //height: 50px;
+    //width: 500px;
+    height: 50%;
+    width: 50%;
+    padding: 3px;
+    background: white;
+    position: relative;
+    
+
+    .search {
+        flex-grow: 1;
+        font-size: 2rem;
+        width: 10%;
+        height: 10%;
+        padding: 0 0.5em;
+        border: 0;
+        background: transparent;
+
+        &:focus {
+            outline: 0;
+        }
+    }
+
+    .search-btn {
+        font-size: 1.5rem;
+        cursor: pointer;
+        border: 0;
+        background: transparent;
+        border-radius: 50%;
+        color: white;
+        background: linear-gradient(45deg,#4361ee, #4895ef);
+        width: 40px;
+        height: 40px;
+        //width: 10%;
+        //height: 10%;
+    }
+
+}
+
+.list-group {
+    overflow-y: auto;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin-top: 5px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px 0 #a6a6a6;
+    z-index: 1;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.list-group li {
+    list-style: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.list-group .no-result {
+    padding: 10px 20px;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: black;
+    padding: 10px 20px;
+}
+
+.list-group li:hover {
+    background: #efefef;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    //position: relative;
+
+    .text-box {
+        margin: auto;
+        width: 88%;
+        margin-top: 35px;
+    }
+
+    .box {
+        height: 370px;
+        width: 90%;
+        max-width: 1093px;
+        //height: 100%;
+        border-radius: 10px;
+        background: linear-gradient(45deg,#023e8a, #caf0f8);
+        margin: 10px 0px 10px 0px;
+        //display: inline-flex;
+        //justify-content: space-around;
+        //align-items: center;
+        //position: relative;
+        position: relative;
+        //flex-wrap: wrap;
+        //overflow-y: hidden;
+        //overflow: hidden;
+    }
+    
+    .box-arrows {
+        height: 370px;
+        width: 100%;
+        //display: flex;
+        //align-items: center;
+        overflow: hidden;
+    }
+    
+    .carousel-box {
+        height: 370px;
+        display: inline-flex;
+        align-items: center;
+        //border: 1px solid red;
+        //padding: 0px 30px 0px 30px;
+    }
+    
+
+    .box-arrows::-webkit-scrollbar {
+        display: none;
+    }
+
+    .previous-button {
+        position: absolute;
+        //top: 230px;
+        //left: 36px;
+        top: 160px;
+        left: -25px;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        background: #ffc300;
+        border: none;
+        border-radius: 50%;
+        display: none;
+    }
+
+    .previous-button.show {
+        display: block;
+    }
+
+    .previous-button:hover {
+        background: #ffd60a;
+    }
+
+    .next-button {
+        position: absolute;
+        //top: 230px;
+        //right: 36px;
+        top: 160px;
+        right: -25px;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        background: #ffc300;
+        border: none;
+        border-radius: 50%;
+    }
+
+    .next-button.hide {
+        display: none;
+    }
+
+
+    .next-button:hover {
+        background: #ffd60a;
+    }
+    
+    .inside-box, .inside-box-hidden {
+        background: rgb(255, 255, 255);
+        height: 85%;
+        width: 220px;
+        //flex-basis: 240px;
+        //max-width: 240px;
+        border-radius: 15px;
+        text-align: center;
+        //position: relative;
+        //overflow: hidden;
+        margin-left: 26.625px;
+        margin-right: 26.625px;
+        //margin: 0 30px;
+        padding: 0px 8px;
+        box-shadow: 0 8px 6px -6px black;
+        //display: none;
+    }
+
+    #fourth-box {
+        //margin-left: 55px;
+    }
+
+    /*
+    .inside-box-visible {
+        display: block;
+    }
+    */
+
+    .inside-box:hover {
+        position: relative;
+        top: -1%;
+    }
+
+    .price-box {
+        width: 100%;
+        color: red;
+        font-weight: 700;
+    }
+
+    .inside-box a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        display: flex;
+        flex-direction: column;
+        //justify-content: center;
+        align-items: center;
+        margin-bottom: 28px;
+        //height: 235px;
+        height: 80%;
+        //background-color: red;
+    }
+
+    .inside-box-img {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: 200px;
+        width: 200px;
+        //height: 180px;
+        //height: 80%;
+    }
+
+    .phone-size {
+        //height: 150px;
+        //height: 70%;
+        //margin-top: 15px;
+        //margin-bottom: 15px;
+    }
+
+    .tv-size {
+        //height: 120px;
+        //height: 50%;
+        //margin-top: 40px;
+        //margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 1255px) {
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .logo-search-container {
+        flex-direction: column;
+    }
+
+    .logo-search-container a {
+        margin: 0;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+
+    .box-container .inside-box {
+        margin-left: 40.5px;
+        margin-right: 40.5px;
+    }
+}
+
+@media (min-width: 1255px) {
+
+    .container {
+        width: 1255px;
+    }
+}
