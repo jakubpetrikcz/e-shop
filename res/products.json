@@ -1,0 +1,86 @@
+{
+    "items1": [
+        {
+            "name": "ASUS ROG Zephyrus S GX531GW-ES009T",
+            "img": "./img/Asus X509UB-EJ010T.png",
+            "price": "27 864 Kč",
+            "link": "./ASUS ROG Zephyrus S.html"
+        },
+        {
+            "name": "Apple MacBook Air 13&quot M1",
+            "img": "./img/Macbook Air 13.jpg",
+            "price": "29 990 Kč",
+            "link": "./Apple MacBook Air 13 M1.html"
+        },
+        {
+            "name": "Intel Core i9-10900F",
+            "img": "./img/Intel core i9.jpg",
+            "price": "9 699 Kč",
+            "link": "./Intel Core i9-10900F.html"
+        },
+        {
+            "name": "Intel Core i9-10900F",
+            "img": "./img/Intel core i9.jpg",
+            "price": "9 699 Kč",
+            "link": "./Intel Core i9-10900F.html"
+        }
+    ],
+    "items2": [
+        {
+            "name": "iPhone 12 128GB fialová",
+            "img": "./img/iPhone 12 128GB fialova 1.jpg",
+            "price": "23 390 Kč",
+            "link": "./iphone12_purple.html"
+        },
+        {
+            "name": "HP Pavilion Gaming TG01-1901nc Black",
+            "img": "./img/HP Pavilion Gaming TG01-1901nc Black.jpg",
+            "price": "24 990 Kč",
+            "link": "./HP Pavilion TG01-1901nc black.html"
+        },
+        {
+            "name": "Samsung QE75Q80T - 189cm",
+            "img": "./img/Samsung QE75Q80T - 189cm.jpg",
+            "price": "59 990 Kč",
+            "link": "./Samsung QE75Q80T - 189cm.html"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "iPhone 12 128GB fialová",
+            "img": "./img/iPhone 12 128GB fialova.png",
+            "price": "23 390 Kč"
+        },
+        {
+            "id": 2,
+            "name": "MacBook Air 13&quot M1 256 GB",
+            "img": "./img/Macbook Air 13 M1.png",
+            "price": "29 990 Kč"
+        },
+        {
+            "id": 3,
+            "name": "ASUS ROG Zephyrus S GX502GV-ES004T",
+            "img": "./img/Asus X509UB-EJ010T.png",
+            "price": "27 864 Kč"
+        },
+        {
+            "id": 4,
+            "name": "HP Pavilion Gaming TG01-1901nc Black",
+            "img": "./img/HP Pavilion Gaming TG01-1901nc Black.jpg",
+            "price": "24 990 Kč"
+        },
+        {
+            "id": 5,
+            "name": "Intel Core i9-10900F",
+            "img": "./img/Intel Core i9-10900F.png",
+            "price": "9 699 Kč"
+        },
+        {
+            "id": 6,
+            "name": "Samsung QE75Q80T - 189cm",
+            "img": "./img/Samsung QE75Q80T - 189cm.jpg",
+            "price": "59 990 Kč"
+        }
+    ]
+}

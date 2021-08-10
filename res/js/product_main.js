@@ -1,3 +1,44 @@
+
+// Load JSON
+
+    
+
+
+let users = document.querySelector(".product");
+let name = document.querySelector(".product-name");
+let buy = document.querySelector(".buy-btn");
+// console.log(users);
+// console.log(name);
+// console.log(buy);
+//let name = document.getElementsByClassName("product-name")[0].innerText;
+
+
+/*
+const getPage = whichPage => {
+    return fetch("./res/products.json")
+    .then(response => response.json())
+    .then(data => buildPage(whichPage, data))
+    .catch(error => console.log(error));
+};
+
+const buildPage = (whichPage, products) => {
+    if (whichPage == "product") {
+        products.forEach(p => console.log(p));
+    }
+    else {
+        let product = products.find(p => p.name == whichPage);
+        if (product) {
+            console.log(product);
+        }
+        else {
+            console.error("product not found [" + whichPage + "]");
+        }
+    }
+};
+
+getPage("products");
+*/
+
 // Tabs
 function onTabClick(event) {
     let activeTabs = document.querySelectorAll(".active-tab");
